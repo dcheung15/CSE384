@@ -1,0 +1,7 @@
+ls -l first :
+ -rw -rw r--
+The owner can read and write the file. Then the members of the file group can read and write the file. Then for everyone else, they can only read. 
+
+ls -l ./first
+-rwx ----- 
+Only the owner can access the file, being read, write and execute.
